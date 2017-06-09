@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gym_background2"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top|start"
+        android:src="@mipmap/logo"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom">
+
+    <Button
+        android:id="@+id/addClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj klienta"
+        android:gravity="center|bottom"/>
+
+    <Button
+        android:id="@+id/viewAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zobacz listę wszystkich klientów"
+        android:gravity="center|bottom"/>
+
+    <Button
+        android:id="@+id/viewClasses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zobacz liste zajec"
+        android:gravity="center|bottom"/>
+    </LinearLayout>
+</LinearLayout>
